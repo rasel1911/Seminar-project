@@ -5,7 +5,7 @@ const int ECHO_PIN = 10;
 const int LED_PINS[5] = {2, 3, 4, 5, 6};
 
 // Distance thresholds in cm (adjust to your needs)
-const int THRESHOLDS[5] = {80, 60, 40, 20, 10};
+const int THRESHOLDS[5] = {20, 15, 10, 5, 2};
 
 void setup() {
   pinMode(TRIG_PIN, OUTPUT);
